@@ -10,20 +10,20 @@ html, body {
   margin: 0;
   padding: 0;
   border: 0;
-  background: whitesmoke;
-  color: rgba(0, 0, 0, 0.84); }
+  background: #ebd5b3;
+  color: #513d3c; }
 
 ::-moz-selection {
-  color: whitesmoke;
-  background: rgba(0, 0, 0, 0.84); }
+  color: #ebd5b3;
+  background: #513d3c; }
 
 ::selection {
-  color: whitesmoke;
-  background: rgba(0, 0, 0, 0.84); }
+  color: #ebd5b3;
+  background: #513d3c; }
 
 ::-moz-selection {
-  color: whitesmoke;
-  background: rgba(0, 0, 0, 0.84); }
+  color: #ebd5b3;
+  background: #513d3c; }
 
 a, a:active, a:focus {
   outline: none; }
@@ -35,16 +35,16 @@ button:active, button:focus {
   box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.25); }
 
 a {
-  color: rgba(0, 0, 0, 0.84);
+  color: #513d3c;
   text-decoration: none;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.84);
+  border-bottom: 1px solid #513d3c;
   -webkit-transition: all 200ms ease-out 0s;
   transition: all 0.20s ease-out 0s; }
   a:visited {
-    color: rgba(0, 0, 0, 0.84);
+    color: #513d3c;
     text-decoration: none; }
   a:hover, a:active {
-    border-bottom: 1px solid #888;
+    border-bottom: 1px solid #513d3c;
     opacity: 0.76;
     text-decoration: none; }
 
