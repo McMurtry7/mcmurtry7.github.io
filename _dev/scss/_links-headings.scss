@@ -1,0 +1,61 @@
+a {
+  color: $font-color;
+  text-decoration: none;
+  border-bottom: 1px solid $font-color;
+  -webkit-transition: all 200ms ease-out 0s;
+  transition: all 0.20s ease-out 0s;
+
+  &:visited {
+  color: $font-color;
+  text-decoration: none;
+  }
+
+  &:hover, &:active {
+    border-bottom: 1px solid $link-color;
+    opacity: 0.76;
+    text-decoration: none;
+  }
+}
+
+h1 {
+  font-family: $secondary-font;
+  font-size: 42px;
+  line-height: 0.95em;
+  margin: 20px 0;
+}
+
+h2 {
+  font-family: $primary-font;
+  font-size: 26px;
+  line-height: 1em;
+  margin: 0 0 5px;
+
+  span {
+    font-weight: normal;
+  }
+}
+
+h3 {
+  font-family: $primary-font;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.1em;
+  margin: 0;
+
+  span {
+    font-weight: bold;
+  }
+}
+
+h4 {
+  font-family: $secondary-font;
+  font-size: 20px;
+  line-height: 1em;
+  margin: 10px 0;
+}
+
+p {
+  font-size: 19px;
+  line-height: 1.7em;
+  margin: 0 0 7px 0;
+}
