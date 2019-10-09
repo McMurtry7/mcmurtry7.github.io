@@ -1,4 +1,5 @@
 *, *:before, *:after {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -32,6 +33,7 @@ button, button:active, button:focus {
   outline: none; }
 
 button:active, button:focus {
+  -webkit-box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.25);
   box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.25); }
 
 a {
@@ -39,6 +41,8 @@ a {
   text-decoration: none;
   border-bottom: 1px solid #513d3c;
   -webkit-transition: all 200ms ease-out 0s;
+  -webkit-transition: all 0.20s ease-out 0s;
+  -o-transition: all 0.20s ease-out 0s;
   transition: all 0.20s ease-out 0s; }
   a:visited {
     color: #513d3c;
@@ -84,13 +88,14 @@ p {
 
 body {
   border-top: 6px solid #513d3c;
-  display: -webkit-flex;
+  display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex-flow: column nowrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
   -ms-flex-flow: column nowrap;
   flex-flow: column nowrap;
-  -webkit-align-items: center;
+  -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center; }
 
